@@ -8,11 +8,7 @@ using System.Threading.Tasks;
 
 namespace DataAccess.Abstract
 {
-    public interface IProductDal: IEntityRepository<Product>
-        //Dal/Dao: Data Access katmanının nesnesidir.
+    public interface IOrderDal:IEntityRepository<Order>
     {
-       
-
     }
 }
-//Code Refactoring
